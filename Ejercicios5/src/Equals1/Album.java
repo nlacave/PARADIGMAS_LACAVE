@@ -23,8 +23,10 @@ public class Album {
 
     @Override
     public boolean equals(Object obj) {
+        if(obj instanceof Album) {
         Album a = (Album) obj;
         return this.artista == a.artista && this.titulo == a.titulo;
+        }
     }
 
 }
