@@ -2,13 +2,13 @@ package Matematicas;
 
 public class Matematica {
     public static void sumar(int n1, int n2) {
-        int suma = n1 + n2;
-        System.out.println("El resultado de la suma es " + suma);
+        return n1 + n2;
+        
     }
 
     public static void multiplicar(int n1, int n2) {
-        int multiplicacion = n1 * n2;
-        System.out.println("El resultado de la multiplicación es " + multiplicacion);
+        return n1 * n2;
+        
     }
     public Multiplicador dameMultiplicador(int n) {
         return new Multiplicador(n);
