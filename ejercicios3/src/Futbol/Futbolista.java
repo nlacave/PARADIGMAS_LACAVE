@@ -32,9 +32,7 @@ public class Futbolista {
     public static Futbolista maximoGoleador = new Futbolista();
 
     public void anotarGol() {
-        cantDeGoles += 1;
-            if (this.getCantDeGoles() > maximoGoleador.getCantDeGoles()) {
-                maximoGoleador = this;
-            }
-        }
+       cantDeGoles += 1;
+       if (this.getCantDeGoles() > maximoGoleador.getCantDeGoles()) { maximoGoleador = this; }
     }
+}
